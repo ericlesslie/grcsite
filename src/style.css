@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 15%;
+    background-color: #73000a;
+}
+
+section {
+    height: 100vh;
+}
+
+nav {
+    padding-right: 5%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+}
+
+img {
+
+}
+
+h1 {
+    font-size: 128px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+img.header {
+    height: 10vh;
+    max-height: 100px;
+    width: auto;
+}
+
+.nav--elem {
+    padding: 8px;
+    color: white;
+}
+
+@font-face {
+    font-family: Eroded;
+    src: url("../fonts/erodedpersonaluseregular-eaepe-webfont.woff2");
+}
+
+section.welcome{
+    position: relative;
+    display: inline-block;
+    height: 90vh;
+}
+
+h1.welcome {
+    font-family: Eroded;
+    color: white;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+img.welcome {
+
+    width: 100vw;
+}
+
+.about--textbox {
+    position: absolute;
+    margin: 10vh 10vw 10vh 10vw;
+    padding: 20px 40px 20px 40px;
+    width: 40vw;
+    height: 40vh;
+    background-color: #73000a;
+    color: white;
+    z-index: 1;
+}
+
+img.about {
+    position: relative;
+    top: 10vh;
+    left: 60vw;
+    width: auto;
+    height: 80vh;
+    z-index: 2;
+}
+
+.practice {
+    background-color: #73000a;
+}
+
+.practice--textbox {
+    position: absolute;
+    margin: 40vh 5vw 10vh 50vw;
+    padding: 20px 40px 20px 40px;
+    width: 40vw;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+
+img.practice {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    width: auto;
+    height: 80vh;
+    z-index: 2;
+}
+
+section.schedule {
+
+}
+
+h2.schedule {
+    text-align: center;
+}
+
+.schedule--columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+dl.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+dt.schedule {
+
+}
+
+dd.schedule {}
+
+section.donate { 
+    background-color: #73000a;
+    overflow-y: auto;
+}
+
+div.donate {
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+h2.donate {
+    margin: 0;
+}
+
+section.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+}
